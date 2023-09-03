@@ -5,7 +5,7 @@ public class TestFactory {
         //call method from factory indirectly
         var factory = new LogisticFactory();
 //        factory.createLogistic("TRUCK").transport();
-        factory.createLogistic("SHIP").transport();
+        factory.createLogistic("TRUCK").transport();
 
     }
 }
